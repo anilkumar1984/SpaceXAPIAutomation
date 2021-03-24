@@ -1,0 +1,4 @@
+# Created at 2021-03-24T21:05:01.400
+Boot Manifest-JAR contains absolute paths in classpath 'D:\SpaceWork\SpaceXAutomation\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+

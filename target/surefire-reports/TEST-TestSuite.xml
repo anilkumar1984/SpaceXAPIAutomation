@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="13.472" tests="3" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\SpaceWork\SpaceXAutomation\target\test-classes;D:\SpaceWork\SpaceXAutomation\target\classes;C:\Users\qapitol\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\qapitol\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\qapitol\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\qapitol\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\qapitol\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\qapitol\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\qapitol\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\qapitol\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\qapitol\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\qapitol\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\qapitol\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\qapitol\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\qapitol\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\qapitol\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\qapitol\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\qapitol\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\qapitol\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\qapitol\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\qapitol\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\qapitol\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\qapitol\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\qapitol\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\qapitol\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\qapitol\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\qapitol\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\qapitol\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\qapitol\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\qapitol\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\qapitol\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\qapitol\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\qapitol\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\qapitol\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\qapitol\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\qapitol\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\qapitol\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\qapitol\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\qapitol\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\qapitol\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\qapitol\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\qapitol\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\qapitol\.m2\repository\com\aventstack\extentreports\4.0.0\extentreports-4.0.0.jar;C:\Users\qapitol\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\qapitol\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\qapitol\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\qapitol\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\qapitol\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\qapitol\AppData\Local\Temp\surefire4157135239790246608\surefirebooter5612105578861419521.jar C:\Users\qapitol\AppData\Local\Temp\surefire4157135239790246608 2021-03-24T21-05-00_369-jvmRun1 surefire6710825366224078108tmp surefire_08195932276142621104tmp"/>
+    <property name="surefire.test.class.path" value="D:\SpaceWork\SpaceXAutomation\target\test-classes;D:\SpaceWork\SpaceXAutomation\target\classes;C:\Users\qapitol\.m2\repository\io\rest-assured\rest-assured\4.3.3\rest-assured-4.3.3.jar;C:\Users\qapitol\.m2\repository\org\codehaus\groovy\groovy\3.0.7\groovy-3.0.7.jar;C:\Users\qapitol\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.7\groovy-xml-3.0.7.jar;C:\Users\qapitol\.m2\repository\org\apache\httpcomponents\httpclient\4.5.3\httpclient-4.5.3.jar;C:\Users\qapitol\.m2\repository\org\apache\httpcomponents\httpcore\4.4.6\httpcore-4.4.6.jar;C:\Users\qapitol\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\qapitol\.m2\repository\org\apache\httpcomponents\httpmime\4.5.3\httpmime-4.5.3.jar;C:\Users\qapitol\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\qapitol\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\qapitol\.m2\repository\io\rest-assured\json-path\4.3.3\json-path-4.3.3.jar;C:\Users\qapitol\.m2\repository\org\codehaus\groovy\groovy-json\3.0.7\groovy-json-3.0.7.jar;C:\Users\qapitol\.m2\repository\io\rest-assured\rest-assured-common\4.3.3\rest-assured-common-4.3.3.jar;C:\Users\qapitol\.m2\repository\io\rest-assured\xml-path\4.3.3\xml-path-4.3.3.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-lang3\3.11\commons-lang3-3.11.jar;C:\Users\qapitol\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\qapitol\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\qapitol\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\qapitol\.m2\repository\org\apache\poi\poi\5.0.0\poi-5.0.0.jar;C:\Users\qapitol\.m2\repository\org\slf4j\slf4j-api\1.7.30\slf4j-api-1.7.30.jar;C:\Users\qapitol\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\qapitol\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\qapitol\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\qapitol\.m2\repository\org\apache\poi\poi-ooxml\5.0.0\poi-ooxml-5.0.0.jar;C:\Users\qapitol\.m2\repository\org\apache\poi\poi-ooxml-lite\5.0.0\poi-ooxml-lite-5.0.0.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlbeans\xmlbeans\4.0.0\xmlbeans-4.0.0.jar;C:\Users\qapitol\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\qapitol\.m2\repository\org\apache\commons\commons-compress\1.20\commons-compress-1.20.jar;C:\Users\qapitol\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\qapitol\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.68\bcpkix-jdk15on-1.68.jar;C:\Users\qapitol\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.68\bcprov-jdk15on-1.68.jar;C:\Users\qapitol\.m2\repository\org\apache\santuario\xmlsec\2.2.1\xmlsec-2.2.1.jar;C:\Users\qapitol\.m2\repository\com\fasterxml\woodstox\woodstox-core\5.2.1\woodstox-core-5.2.1.jar;C:\Users\qapitol\.m2\repository\org\codehaus\woodstox\stax2-api\4.2\stax2-api-4.2.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-all\1.13\batik-all-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-anim\1.13\batik-anim-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-shared-resources\1.13\batik-shared-resources-1.13.jar;C:\Users\qapitol\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.13\batik-awt-util-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\2.4\xmlgraphics-commons-2.4.jar;C:\Users\qapitol\.m2\repository\commons-io\commons-io\1.3.1\commons-io-1.3.1.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-bridge\1.13\batik-bridge-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-codec\1.13\batik-codec-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-constants\1.13\batik-constants-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-css\1.13\batik-css-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-dom\1.13\batik-dom-1.13.jar;C:\Users\qapitol\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\qapitol\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-ext\1.13\batik-ext-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-extension\1.13\batik-extension-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-gui-util\1.13\batik-gui-util-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-gvt\1.13\batik-gvt-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-i18n\1.13\batik-i18n-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-parser\1.13\batik-parser-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-rasterizer-ext\1.13\batik-rasterizer-ext-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-rasterizer\1.13\batik-rasterizer-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-script\1.13\batik-script-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-slideshow\1.13\batik-slideshow-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-squiggle-ext\1.13\batik-squiggle-ext-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-squiggle\1.13\batik-squiggle-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.13\batik-svg-dom-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svgbrowser\1.13\batik-svgbrowser-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svggen\1.13\batik-svggen-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svgpp\1.13\batik-svgpp-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-svgrasterizer\1.13\batik-svgrasterizer-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-swing\1.13\batik-swing-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-transcoder\1.13\batik-transcoder-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-util\1.13\batik-util-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-ttf2svg\1.13\batik-ttf2svg-1.13.jar;C:\Users\qapitol\.m2\repository\org\apache\xmlgraphics\batik-xml\1.13\batik-xml-1.13.jar;C:\Users\qapitol\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\qapitol\.m2\repository\org\apache\pdfbox\pdfbox\2.0.22\pdfbox-2.0.22.jar;C:\Users\qapitol\.m2\repository\org\apache\pdfbox\fontbox\2.0.22\fontbox-2.0.22.jar;C:\Users\qapitol\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\qapitol\.m2\repository\com\beust\jcommander\1.78\jcommander-1.78.jar;C:\Users\qapitol\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\qapitol\.m2\repository\com\aventstack\extentreports\4.0.0\extentreports-4.0.0.jar;C:\Users\qapitol\.m2\repository\org\freemarker\freemarker\2.3.23\freemarker-2.3.23.jar;C:\Users\qapitol\.m2\repository\org\mongodb\mongodb-driver\3.3.0\mongodb-driver-3.3.0.jar;C:\Users\qapitol\.m2\repository\org\mongodb\mongodb-driver-core\3.3.0\mongodb-driver-core-3.3.0.jar;C:\Users\qapitol\.m2\repository\org\mongodb\bson\3.3.0\bson-3.3.0.jar;C:\Users\qapitol\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\qapitol"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_231\jre"/>
+    <property name="basedir" value="D:\SpaceWork\SpaceXAutomation"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\qapitol\AppData\Local\Temp\surefire4157135239790246608\surefirebooter5612105578861419521.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_231\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_231\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_231-b11"/>
+    <property name="user.name" value="qapitol"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\qapitol\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\qapitol\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_231"/>
+    <property name="user.dir" value="D:\SpaceWork\SpaceXAutomation"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_281/bin/server;C:/Program Files/Java/jre1.8.0_281/bin;C:/Program Files/Java/jre1.8.0_281/lib/amd64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Yarn\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_231\bin;C:\Users\qapitol\AppData\Local\Android\Sdk\tools\bin;C:\Users\qapitol\AppData\Local\Android\Sdk\tools;C:\Users\qapitol\AppData\Local\Android\Sdk\platform-tools;C:\Program Files\nodejs;C:\Program Files\PuTTY\;C:\Users\qapitol\AppData\Roaming\npm;C:\Program Files\apache-maven-3.6.3\bin;C:\Program Files\gatling\gatling-charts-highcharts-bundle-3.5.1\bin;C:\Users\qapitol\AppData\Local\Microsoft\WindowsApps;C:\Users\qapitol\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\nodejs;C:\Program Files\nodejs\node_modules\npm\bin\;C:\Users\qapitol\AppData\Local\Yarn\bin;&quot;;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\Users\qapitol\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.2.3\bin;;C:\Users\qapitol\Downloads\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.231-b11"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_231\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="getResponseCode[/v4/launches/latest](1)" classname="testcases.GetResponseCodeTest" time="4.044">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 24 Mar 2021 15:35:07 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1073
+Connection: keep-alive
+Set-Cookie: __cfduid=d83c8cc90ae26baa573ba13402c6a125a1616600107; expires=Fri, 23-Apr-21 15:35:07 GMT; path=/; domain=.spacexdata.com; HttpOnly; SameSite=Lax; Secure
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: spacex-api-cache,spacex-api-response-time
+Cache-Control: max-age=20
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Etag: "824-9PAADcya5UZoiiY7klIa/pdHs48"
+Expect-Ct: max-age=0
+Referrer-Policy: no-referrer
+Spacex-Api-Cache: HIT
+Spacex-Api-Cache-Online: true
+Spacex-Api-Response-Time: 24ms
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0906791ff300003dae379f6000000001
+Report-To: {"max_age":604800,"group":"cf-nel","endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=QE62hJG037LFlXjAA5pvw7N2i7jYVmtS9wjsowST70FCrCO%2F40yGmc%2FKPPXvuYJC8QF0D%2BKE%2BA92fh1kZaC863A8oWz7ic838MDSJ9MxiClhnqw%3D"}]}
+NEL: {"max_age":604800,"report_to":"cf-nel"}
+Server: cloudflare
+CF-RAY: 6350f7acbd153dae-EWR
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "fairings": {
+        "reused": null,
+        "recovery_attempt": true,
+        "recovered": null,
+        "ships": [
+            "6059166413f40e27e8af34b6",
+            "5ea6ed2f080df4000697c90b"
+        ]
+    },
+    "links": {
+        "patch": {
+            "small": "https://imgur.com/BrW201S.png",
+            "large": "https://imgur.com/573IfGk.png"
+        },
+        "reddit": {
+            "campaign": "https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/",
+            "launch": "https://www.reddit.com/r/spacex/comments/maqmd0/rspacex_starlink22_launch_discussion_updates/",
+            "media": null,
+            "recovery": "https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"
+        },
+        "flickr": {
+            "small": [
+                
+            ],
+            "original": [
+                
+            ]
+        },
+        "presskit": null,
+        "webcast": "https://youtu.be/a15czI9B91c",
+        "youtube_id": "a15czI9B91c",
+        "article": "https://spaceflightnow.com/2021/03/24/spacex-launches-25th-mission-to-build-out-starlink-internet-network/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Starlink"
+    },
+    "static_fire_date_utc": null,
+    "static_fire_date_unix": null,
+    "tbd": false,
+    "net": false,
+    "window": null,
+    "rocket": "5e9d0d95eda69973a809d1ec",
+    "success": true,
+    "details": "This mission launches the 22nd batch of operational Starlink satellites, which are version 1.0, from or SLC-40. It is the 23rd Starlink launch overall. The satellites will be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on an ASDS.",
+    "crew": [
+        
+    ],
+    "ships": [
+        "5ee68c683c228f36bd5809b5",
+        "5ea6ed30080df4000697c913",
+        "5ea6ed2f080df4000697c90b",
+        "6059166413f40e27e8af34b6"
+    ],
+    "capsules": [
+        
+    ],
+    "payloads": [
+        "60428afbc041c16716f73cdd"
+    ],
+    "launchpad": "5e9e4501f509094ba4566f84",
+    "auto_update": true,
+    "launch_library_id": "ec03fe36-fe2a-4e43-8e10-d07d5349f1de",
+    "failures": [
+        
+    ],
+    "flight_number": 121,
+    "name": "Starlink-22 (v1.0)",
+    "date_utc": "2021-03-24T08:28:00.000Z",
+    "date_unix": 1616574480,
+    "date_local": "2021-03-24T04:28:00-04:00",
+    "date_precision": "hour",
+    "upcoming": false,
+    "cores": [
+        {
+            "core": "5ef670f10059c33cee4a826c",
+            "flight": 6,
+            "gridfins": true,
+            "legs": true,
+            "reused": true,
+            "landing_attempt": true,
+            "landing_success": true,
+            "landing_type": "ASDS",
+            "landpad": "5e9e3032383ecb6bb234e7ca"
+        }
+    ],
+    "id": "60428aafc041c16716f73cd7"
+}
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="getResponseId[600f9a8d8f798e2a4d5f979e, /v4/launches/latest](1)" classname="testcases.GetResponseIdTest" time="2.875">
+    <failure message="expected [600f9a8d8f798e2a4d5f979e] but found [60428aafc041c16716f73cd7]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [600f9a8d8f798e2a4d5f979e] but found [60428aafc041c16716f73cd7]
+	at testcases.GetResponseIdTest.getResponseId(GetResponseIdTest.java:33)
+]]></failure>
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 24 Mar 2021 15:35:10 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1073
+Connection: keep-alive
+Set-Cookie: __cfduid=df2310f43af23c5922435dac334fff4c71616600109; expires=Fri, 23-Apr-21 15:35:09 GMT; path=/; domain=.spacexdata.com; HttpOnly; SameSite=Lax; Secure
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: spacex-api-cache,spacex-api-response-time
+Cache-Control: max-age=20
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Etag: "824-9PAADcya5UZoiiY7klIa/pdHs48"
+Expect-Ct: max-age=0
+Referrer-Policy: no-referrer
+Spacex-Api-Cache: HIT
+Spacex-Api-Cache-Online: true
+Spacex-Api-Response-Time: 1ms
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+CF-Cache-Status: DYNAMIC
+cf-request-id: 0906792b760000556b72b8a000000001
+Report-To: {"max_age":604800,"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=kcCvIJOUXBT%2BZGBphg6DS6Gd%2FQ7v55KQpzCJG4t%2Fr%2B4OZzreSCcSHh16CimaVcsgUoDrL1NHspz%2B%2BY6oKfl%2BYnBdCsea8HJgTOa%2B6c6EidabEH0%3D"}],"group":"cf-nel"}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6350f7bf2a2f556b-EWR
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "fairings": {
+        "reused": null,
+        "recovery_attempt": true,
+        "recovered": null,
+        "ships": [
+            "6059166413f40e27e8af34b6",
+            "5ea6ed2f080df4000697c90b"
+        ]
+    },
+    "links": {
+        "patch": {
+            "small": "https://imgur.com/BrW201S.png",
+            "large": "https://imgur.com/573IfGk.png"
+        },
+        "reddit": {
+            "campaign": "https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/",
+            "launch": "https://www.reddit.com/r/spacex/comments/maqmd0/rspacex_starlink22_launch_discussion_updates/",
+            "media": null,
+            "recovery": "https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"
+        },
+        "flickr": {
+            "small": [
+                
+            ],
+            "original": [
+                
+            ]
+        },
+        "presskit": null,
+        "webcast": "https://youtu.be/a15czI9B91c",
+        "youtube_id": "a15czI9B91c",
+        "article": "https://spaceflightnow.com/2021/03/24/spacex-launches-25th-mission-to-build-out-starlink-internet-network/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Starlink"
+    },
+    "static_fire_date_utc": null,
+    "static_fire_date_unix": null,
+    "tbd": false,
+    "net": false,
+    "window": null,
+    "rocket": "5e9d0d95eda69973a809d1ec",
+    "success": true,
+    "details": "This mission launches the 22nd batch of operational Starlink satellites, which are version 1.0, from or SLC-40. It is the 23rd Starlink launch overall. The satellites will be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on an ASDS.",
+    "crew": [
+        
+    ],
+    "ships": [
+        "5ee68c683c228f36bd5809b5",
+        "5ea6ed30080df4000697c913",
+        "5ea6ed2f080df4000697c90b",
+        "6059166413f40e27e8af34b6"
+    ],
+    "capsules": [
+        
+    ],
+    "payloads": [
+        "60428afbc041c16716f73cdd"
+    ],
+    "launchpad": "5e9e4501f509094ba4566f84",
+    "auto_update": true,
+    "launch_library_id": "ec03fe36-fe2a-4e43-8e10-d07d5349f1de",
+    "failures": [
+        
+    ],
+    "flight_number": 121,
+    "name": "Starlink-22 (v1.0)",
+    "date_utc": "2021-03-24T08:28:00.000Z",
+    "date_unix": 1616574480,
+    "date_local": "2021-03-24T04:28:00-04:00",
+    "date_precision": "hour",
+    "upcoming": false,
+    "cores": [
+        {
+            "core": "5ef670f10059c33cee4a826c",
+            "flight": 6,
+            "gridfins": true,
+            "legs": true,
+            "reused": true,
+            "landing_attempt": true,
+            "landing_success": true,
+            "landing_type": "ASDS",
+            "landpad": "5e9e3032383ecb6bb234e7ca"
+        }
+    ],
+    "id": "60428aafc041c16716f73cd7"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="getResponseShipsCount[4, /v4/launches/latest](1)" classname="testcases.GetResponseShipsCountTest" time="4.014">
+    <system-out><![CDATA[HTTP/1.1 200 OK
+Date: Wed, 24 Mar 2021 15:35:14 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 1073
+Connection: keep-alive
+Set-Cookie: __cfduid=d0962a35b509f3d15432a6ceabd24d3491616600112; expires=Fri, 23-Apr-21 15:35:12 GMT; path=/; domain=.spacexdata.com; HttpOnly; SameSite=Lax; Secure
+Access-Control-Allow-Origin: *
+Access-Control-Expose-Headers: spacex-api-cache,spacex-api-response-time
+Cache-Control: max-age=20
+Content-Encoding: gzip
+Content-Security-Policy: default-src 'self';base-uri 'self';block-all-mixed-content;font-src 'self' https: data:;frame-ancestors 'self';img-src 'self' data:;object-src 'none';script-src 'self';script-src-attr 'none';style-src 'self' https: 'unsafe-inline';upgrade-insecure-requests
+Etag: "824-9PAADcya5UZoiiY7klIa/pdHs48"
+Expect-Ct: max-age=0
+Referrer-Policy: no-referrer
+Spacex-Api-Cache: HIT
+Spacex-Api-Cache-Online: true
+Spacex-Api-Response-Time: 1185ms
+Strict-Transport-Security: max-age=15552000; includeSubDomains
+Vary: Origin
+Vary: Accept-Encoding
+X-Content-Type-Options: nosniff
+X-Dns-Prefetch-Control: off
+X-Download-Options: noopen
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Xss-Protection: 0
+CF-Cache-Status: DYNAMIC
+cf-request-id: 09067936070000153a8db55000000001
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=W7OnxFCb%2FAk6ye8ruD%2FAJB50q%2FTPlDhcyxqY9%2FbGyivzkHBumt%2B6H58UkbcgWDnN0YwcYhdxJIa9R7dbOqSau0lxjCRRuqpLxycnXiq6AfzjXcc%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 6350f7d00be5153a-EWR
+alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "fairings": {
+        "reused": null,
+        "recovery_attempt": true,
+        "recovered": null,
+        "ships": [
+            "6059166413f40e27e8af34b6",
+            "5ea6ed2f080df4000697c90b"
+        ]
+    },
+    "links": {
+        "patch": {
+            "small": "https://imgur.com/BrW201S.png",
+            "large": "https://imgur.com/573IfGk.png"
+        },
+        "reddit": {
+            "campaign": "https://www.reddit.com/r/spacex/comments/jhu37i/starlink_general_discussion_and_deployment_thread/",
+            "launch": "https://www.reddit.com/r/spacex/comments/maqmd0/rspacex_starlink22_launch_discussion_updates/",
+            "media": null,
+            "recovery": "https://www.reddit.com/r/spacex/comments/k2ts1q/rspacex_fleet_updates_discussion_thread/"
+        },
+        "flickr": {
+            "small": [
+                
+            ],
+            "original": [
+                
+            ]
+        },
+        "presskit": null,
+        "webcast": "https://youtu.be/a15czI9B91c",
+        "youtube_id": "a15czI9B91c",
+        "article": "https://spaceflightnow.com/2021/03/24/spacex-launches-25th-mission-to-build-out-starlink-internet-network/",
+        "wikipedia": "https://en.wikipedia.org/wiki/Starlink"
+    },
+    "static_fire_date_utc": null,
+    "static_fire_date_unix": null,
+    "tbd": false,
+    "net": false,
+    "window": null,
+    "rocket": "5e9d0d95eda69973a809d1ec",
+    "success": true,
+    "details": "This mission launches the 22nd batch of operational Starlink satellites, which are version 1.0, from or SLC-40. It is the 23rd Starlink launch overall. The satellites will be delivered to low Earth orbit and will spend a few weeks maneuvering to their operational altitude. The booster is expected to land on an ASDS.",
+    "crew": [
+        
+    ],
+    "ships": [
+        "5ee68c683c228f36bd5809b5",
+        "5ea6ed30080df4000697c913",
+        "5ea6ed2f080df4000697c90b",
+        "6059166413f40e27e8af34b6"
+    ],
+    "capsules": [
+        
+    ],
+    "payloads": [
+        "60428afbc041c16716f73cdd"
+    ],
+    "launchpad": "5e9e4501f509094ba4566f84",
+    "auto_update": true,
+    "launch_library_id": "ec03fe36-fe2a-4e43-8e10-d07d5349f1de",
+    "failures": [
+        
+    ],
+    "flight_number": 121,
+    "name": "Starlink-22 (v1.0)",
+    "date_utc": "2021-03-24T08:28:00.000Z",
+    "date_unix": 1616574480,
+    "date_local": "2021-03-24T04:28:00-04:00",
+    "date_precision": "hour",
+    "upcoming": false,
+    "cores": [
+        {
+            "core": "5ef670f10059c33cee4a826c",
+            "flight": 6,
+            "gridfins": true,
+            "legs": true,
+            "reused": true,
+            "landing_attempt": true,
+            "landing_success": true,
+            "landing_type": "ASDS",
+            "landpad": "5e9e3032383ecb6bb234e7ca"
+        }
+    ],
+    "id": "60428aafc041c16716f73cd7"
+}
+]]></system-out>
+  </testcase>
+</testsuite>

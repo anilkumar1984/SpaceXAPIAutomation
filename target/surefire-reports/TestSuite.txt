@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 13.472 s <<< FAILURE! - in TestSuite
+testcases.GetResponseIdTest.getResponseId[600f9a8d8f798e2a4d5f979e, /v4/launches/latest](1)  Time elapsed: 2.875 s  <<< FAILURE!
+java.lang.AssertionError: expected [600f9a8d8f798e2a4d5f979e] but found [60428aafc041c16716f73cd7]
+	at testcases.GetResponseIdTest.getResponseId(GetResponseIdTest.java:33)
+

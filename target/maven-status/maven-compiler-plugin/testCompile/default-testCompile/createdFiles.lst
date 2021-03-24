@@ -1,0 +1,4 @@
+generics\BaseTest.class
+testcases\GetResponseIdTest.class
+testcases\GetResponseCodeTest.class
+testcases\GetResponseShipsCountTest.class
